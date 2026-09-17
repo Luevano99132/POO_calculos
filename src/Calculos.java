@@ -20,10 +20,11 @@ public class Calculos {
      * @param num
      * @return valor absoluto
      */
-    float absoluto(float num) {
-        throw new UnsupportedOperationException("En construcción.");
-    }
 
+    float absoluto(float num) {
+    float res = Math.abs(num);
+    return res;
+}
     /**
      * *
      * Cuenta las vocales en una frase
